@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.text-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 55px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  border: 1px solid gray;
+  border-radius: 20px; 
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  background-color: #7b7575;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background-color: #5d5757;  
+}
+
+.text > button {
+  width: fit-content;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.keyboard-container {
+  width: 60%;
+  margin: 0 auto;  
+  padding: 10px;
+}
+
+.keyboard {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.space {
+  display: flex;
+  justify-content: center;
+}
+
+.key-space {
+  width: 500px;
+}
+
+.key-clear {  
+  height: 40px;
+  background-color: #e04d4d;
+}
+
+.key-clear:hover {  
+  background-color: #e92828;
+}
+
+.key-backspace {  
+  position: absolute;
+  right: 133px;
+  width: 137px;
+  padding: 10px;
+  background-color: #da801b;
+}
+
+.key-backspace:hover {  
+  background-color: #ff8800;
+}
+
+.key-capslock {  
+  position: absolute;
+  left: 133px;
+  width: 137px;
+  padding: 10px;
+}
+

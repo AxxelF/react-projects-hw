@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+body {  
+  font-family: 'Inter';
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color: #F55A5A; 
+  width: 550px;
+  height: 55px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  text-align: left;
+}
+
+main {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+h2 {
+  margin-bottom: 25px;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+b {
+  margin-bottom: 12px;
+
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.container {  
+  width: 550px;
+  
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+img {
+  border-radius: 5px;
+  margin-right: 19px;
+  object-fit: cover;
+}
+
+.upper-string {
+  display: flex;  
+  flex-direction: row;
+  margin-bottom: 12px;
+}
+
+.pointer {
+  margin-right: 4px;
+}
+
+.country {
+  margin-right: 12px;
+
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  text-align: left;
+}
+
+.maps-link {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.text {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
